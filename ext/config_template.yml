@@ -1,0 +1,31 @@
+# config template
+welcome:
+  background:
+    type: img # todo
+    path: # path of the background image
+  card:
+    title: # your title here
+    logo:
+      enable: true  # will disable title if true
+      dark: # path of the logo shown in dark-mode
+      light: # path of the logo shown in light-mode
+    subtitle: # subtitle behind the logo
+    avatar:
+      enable: true  # Recommend
+      path: # path of ava
+    icons:
+      - paths: # path of font-awesome icon
+        link:  # url to visit when click the icon
+
+    items:
+      - # your tags
+
+
+    info:
+      - name: # info item name
+        value: # value of info item
+
+    counts:
+      # the same as info
+      - name: # info item name
+        value: # value of info item

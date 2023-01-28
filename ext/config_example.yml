@@ -1,0 +1,38 @@
+welcome:
+  background:
+    type: img
+    path: /res/background.jpeg
+  card:
+    title: WitchElaina
+    subtitle: Never gonna give you up, never gonna let you down.
+    avatar:
+      enable: true  # Recommend
+      path: /res/ava.jpg
+    logo:
+      enable: false
+      dark: /res/logow.png  # won't show
+      light: /res/logob.png
+    icons:
+      - paths: fa-brands fa-github fa-xl
+        link: 'https://github.com/WitchElaina/Flush'
+      - paths: fa-solid fa-at fa-xl
+        link: 'mailto:mail@mszook.art'
+    items:
+      - Programmer
+      - IoT
+      - Fronted
+
+    info:
+      - name: Gender
+        value: Private
+      - name: Edu.
+        value: PhD
+      - name: School
+        value: USTB
+    counts:
+      - name: Github Repos
+        source: 29
+      - name: Total PRs 2023
+        source: 104
+      - name: Projects
+        source: 32

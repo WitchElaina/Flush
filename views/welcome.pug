@@ -1,0 +1,43 @@
+html
+    head
+        title Welcome!
+        link(rel="stylesheet" href="/css/welcome.css")
+        script(src="https://kit.fontawesome.com/2a4722f2ff.js" crossorigin="anonymous")
+        script(src="/scripts/welcome.js")
+    body
+        div(class='background')
+            img(src=background.path)
+        div(class='card')
+            if card.avatar.enable
+                div(class='avr')
+                    img(src = card.avatar.path)
+            div(class='card_items')
+                if !card.logo.enable
+                    div(class='title') #{card.title}
+                else
+                    div(class='logo')
+                        img(id='logo-dark' src=card.logo.dark)
+                        img(id='logo-light' src=card.logo.light)
+                div(class='subtitle') #{card.subtitle}
+                div(class='tag')
+                    each item in card.items
+                        div(id='items')= item
+                div(class='social')
+                    each icon in card.icons
+                        a(class='icon' href=icon.link)
+                            i(class=icon.paths)
+                div(class='space')
+
+                div(class='statistics')
+                    each item in card.info
+                        div(class='st_value') #{item.value}
+                div(class='statistics')
+                    each item in card.info
+                        div(class='st_name') #{item.name}
+                div(class='space')
+                div(class='statistics')
+                    each item in card.counts
+                        div(class='st_value') #{item.source}
+                div(class='statistics')
+                    each item in card.counts
+                        div(class='st_name') #{item.name}
