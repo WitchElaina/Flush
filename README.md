@@ -43,3 +43,11 @@ cp ./ext/config_template.yml ./config.yml
 ```
 node ./server.js
 ```
+
+## TODO
+
+- [ ] 动态获取数据
+- [ ] 生成静态页面
+- [ ] 手动切换暗色模式 
+- [ ] 适配其他SVG图标
+- [ ] 优化mobileUI
