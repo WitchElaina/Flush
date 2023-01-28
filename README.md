@@ -7,6 +7,16 @@
 - 非线性动画效果
 - 响应式设计
 
+<details>
+    <summary>预览</summary>
+    <div style="align-content: center;">
+        <img src="img/prev.png" alt="Preview">
+    </div>
+</details>
+
+Demo: https://mszook.art/
+
+
 ## 部署
 
 安装nodejs
