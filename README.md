@@ -7,6 +7,8 @@
 - 非线性动画效果
 - 响应式设计
 
+Demo: https://flush.mszook.art/
+
 <details>
     <summary>预览</summary>
     <div style="align-content: center;">
