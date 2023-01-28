@@ -14,7 +14,6 @@
     </div>
 </details>
 
-Demo: https://mszook.art/
 
 
 ## 部署
