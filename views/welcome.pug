@@ -6,11 +6,11 @@ html
         script(src="/scripts/welcome.js")
     body
         div(class='background')
-            img(src=background.path)
+            img(src=background.path draggable='false')
         div(class='card')
             if card.avatar.enable
                 div(class='avr')
-                    img(src = card.avatar.path)
+                    img(src = card.avatar.path draggable='false')
             div(class='card_items')
                 if !card.logo.enable
                     div(class='title') #{card.title}
